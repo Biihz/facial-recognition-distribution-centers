@@ -19,15 +19,11 @@ context of **automated pickup centers**:
 2. **Unsupervised Machine Learning (Clustering)** - logistics optimization to strategically
    define the location of new distribution centers.
 
----
-
 ##  Goals
 
 - Automate customer authentication at pickup points through facial recognition.
 - Reduce delivery failures by positioning distribution centers intelligently.
 - Demonstrate, in practice, the application of AI techniques to a real retail and logistics scenario.
-
----
 
 ##  Repository Structure
 
@@ -41,8 +37,6 @@ facial-recognition-distribution-centers/
 ├── Relatorio_Melhores_Compras_Os_Mosqueteiros.pdf  # Technical project report
 └── README.md
 ```
-
----
 
 ##  Part 1 - Facial Recognition
 
@@ -58,8 +52,6 @@ simulating the customer authentication flow at the pickup center.
 - `NumPy` - image array manipulation
 - `Matplotlib` - results visualization
 
----
-
 ##  Part 2 - Logistics Optimization (K-Means)
 
 Notebook: **`02_Clusterizacao_Logistica_KMeans.ipynb`**
@@ -73,8 +65,6 @@ Applies the **K-Means** algorithm to a geolocation dataset of delivery failures 
 - `pandas` - dataset loading and processing
 - `scikit-learn (KMeans)` - unsupervised clustering
 - `Matplotlib` - visualization of clusters and centroids
-
----
 
 ##  How to Run
 
@@ -97,8 +87,6 @@ Applies the **K-Means** algorithm to a geolocation dataset of delivery failures 
 4. Run the cells of **`01_Reconhecimento_Facial.ipynb`** and
    **`02_Clusterizacao_Logistica_KMeans.ipynb`** in the presented order.
 
----
-
 ## Technologies Used
 
 | Category               | Tools                                |
@@ -110,21 +98,10 @@ Applies the **K-Means** algorithm to a geolocation dataset of delivery failures 
 | Visualization          | Matplotlib                           |
 | Environment            | Jupyter Notebook                     |
 
----
-
 ##  Documentation
 
 The complete technical report of the project is available at
 **`Relatorio_Melhores_Compras_Os_Mosqueteiros.pdf`**.
-
----
-
-##  Team - Os Mosqueteiros
-
-Project developed by the **Os Mosqueteiros** group for FIAP's Phase 6.
-
----
-
 
 ---
 
@@ -143,15 +120,11 @@ contexto de **centros de retirada automatizados (pickup centers)**:
 2. **Machine Learning Não Supervisionado (Clusterização)** - otimização logística para definição
    estratégica da localização de novos centros de distribuição.
 
----
-
 ##  Objetivos
 
 - Automatizar a autenticação de clientes nos pontos de retirada por meio do rosto.
 - Reduzir falhas de entrega posicionando os centros de distribuição de forma inteligente.
 - Demonstrar, na prática, a aplicação de técnicas de IA em um cenário real de varejo e logística.
-
----
 
 ##  Estrutura do Repositório
 
@@ -165,8 +138,6 @@ facial-recognition-distribution-centers/
 ├── Relatorio_Melhores_Compras_Os_Mosqueteiros.pdf  # Relatório técnico do projeto
 └── README.md
 ```
-
----
 
 ## Parte 1 - Reconhecimento Facial
 
@@ -182,8 +153,6 @@ simulando o fluxo de autenticação de um cliente no centro de retirada.
 - `NumPy` - manipulação de arrays de imagem
 - `Matplotlib` - visualização dos resultados
 
----
-
 ##  Parte 2 - Otimização Logística (K-Means)
 
 Notebook: **`02_Clusterizacao_Logistica_KMeans.ipynb`**
@@ -197,8 +166,6 @@ identificar **5 clusters**. Os centroides resultantes indicam a localização id
 - `pandas` - carregamento e tratamento do dataset
 - `scikit-learn (KMeans)` - clusterização não supervisionada
 - `Matplotlib` - visualização dos clusters e centroides
-
----
 
 ##  Como Executar
 
@@ -221,8 +188,6 @@ identificar **5 clusters**. Os centroides resultantes indicam a localização id
 4. Execute as células de **`01_Reconhecimento_Facial.ipynb`** e
    **`02_Clusterizacao_Logistica_KMeans.ipynb`** na ordem apresentada.
 
----
-
 ##  Tecnologias Utilizadas
 
 | Categoria              | Ferramentas                          |
@@ -233,8 +198,6 @@ identificar **5 clusters**. Os centroides resultantes indicam a localização id
 | Manipulação de Dados   | pandas, NumPy                        |
 | Visualização           | Matplotlib                           |
 | Ambiente               | Jupyter Notebook                     |
-
----
 
 ##  Documentação
 
