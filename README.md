@@ -1,5 +1,5 @@
 <p align="center">
-  <strong><a href="#-english-version">English</a> | <a href="#-versao-em-portugues">Português</a></strong>
+  <strong>🇺🇸 <a href="#-english-version"> English</a> | 🇧🇷 <a href="#-versao-em-portugues">Português</a></strong>
 </p>
 
 ---
