@@ -2,8 +2,6 @@
   <strong>🇺🇸 <a href="#-english-version"> English</a> | 🇧🇷 <a href="#-versao-em-portugues">Português</a></strong>
 </p>
 
----
-
 <a id="-english-version"></a>
 
 # Facial Recognition and Logistics Optimization for Distribution Centers
