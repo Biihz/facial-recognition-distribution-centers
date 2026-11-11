@@ -1,5 +1,5 @@
 <p align="center">
-  <strong>🌐 <a href="#-english-version">English</a> | <a href="#-versao-em-portugues">Português</a></strong>
+  <strong><a href="#-english-version">English</a> | <a href="#-versao-em-portugues">Português</a></strong>
 </p>
 
 ---
@@ -14,9 +14,9 @@ Official repository of the project developed for the **Melhores Compras Challeng
 **FIAP's Phase 6**. The solution combines two Artificial Intelligence approaches applied to the
 context of **automated pickup centers**:
 
-1. **Computer Vision (Facial Recognition)** — customer identification for automated release of
+1. **Computer Vision (Facial Recognition)** - customer identification for automated release of
    parcels at pickup centers.
-2. **Unsupervised Machine Learning (Clustering)** — logistics optimization to strategically
+2. **Unsupervised Machine Learning (Clustering)** - logistics optimization to strategically
    define the location of new distribution centers.
 
 ---
@@ -54,9 +54,9 @@ simulating the customer authentication flow at the pickup center.
 
 **Techniques and libraries:**
 
-- `OpenCV (cv2)` — facial detection with Haar Cascade
-- `NumPy` — image array manipulation
-- `Matplotlib` — results visualization
+- `OpenCV (cv2)` - facial detection with Haar Cascade
+- `NumPy` - image array manipulation
+- `Matplotlib` - results visualization
 
 ---
 
