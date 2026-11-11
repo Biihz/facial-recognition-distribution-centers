@@ -99,7 +99,7 @@ Applies the **K-Means** algorithm to a geolocation dataset of delivery failures 
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 | Category               | Tools                                |
 | ---------------------- | ------------------------------------ |
@@ -125,9 +125,6 @@ Project developed by the **Os Mosqueteiros** group for FIAP's Phase 6.
 
 ---
 
-<p align="center">
-  Developed as part of the <strong>FIAP</strong> course • Phase 6 • Melhores Compras Challenge
-</p>
 
 ---
 
@@ -246,10 +243,6 @@ O relatório técnico completo do projeto está disponível em
 
 ---
 
-##  Equipe - Os Mosqueteiros
-
-Projeto desenvolvido pelo grupo **Os Mosqueteiros** para a Fase 6 da FIAP.
-
 <p align="center">
   <img src="https://img.shields.io/badge/FIAP-Phase%206-ED145B?style=for-the-badge" alt="FIAP Phase 6"/>
   <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
@@ -258,6 +251,5 @@ Projeto desenvolvido pelo grupo **Os Mosqueteiros** para a Fase 6 da FIAP.
 </p>
 
 
-<p align="center">
-  Desenvolvido como parte do curso da <strong>FIAP</strong> • Fase 6 • Challenge Melhores Compras
+
 </p>
