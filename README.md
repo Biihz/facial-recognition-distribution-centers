@@ -1,13 +1,139 @@
-# Reconhecimento Facial e Otimização Logística para Centros de Distribuição
-
 <p align="center">
-  <img src="https://img.shields.io/badge/FIAP-Fase%206-ED145B?style=for-the-badge" alt="FIAP Fase 6"/>
-  <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/OpenCV-Computer%20Vision-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV"/>
-  <img src="https://img.shields.io/badge/scikit--learn-K--Means-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn"/>
+  <strong>🌐 <a href="#-english-version">English</a> | <a href="#-versao-em-portugues">Português</a></strong>
 </p>
 
 ---
+
+<a id="-english-version"></a>
+
+# Facial Recognition and Logistics Optimization for Distribution Centers
+
+##  About the Project
+
+Official repository of the project developed for the **Melhores Compras Challenge** as part of
+**FIAP's Phase 6**. The solution combines two Artificial Intelligence approaches applied to the
+context of **automated pickup centers**:
+
+1. **Computer Vision (Facial Recognition)** — customer identification for automated release of
+   parcels at pickup centers.
+2. **Unsupervised Machine Learning (Clustering)** — logistics optimization to strategically
+   define the location of new distribution centers.
+
+---
+
+##  Goals
+
+- Automate customer authentication at pickup points through facial recognition.
+- Reduce delivery failures by positioning distribution centers intelligently.
+- Demonstrate, in practice, the application of AI techniques to a real retail and logistics scenario.
+
+---
+
+##  Repository Structure
+
+```
+facial-recognition-distribution-centers/
+├── 01_Reconhecimento_Facial.ipynb                  # Facial detection and recognition (OpenCV)
+├── 02_Clusterizacao_Logistica_KMeans.ipynb         # Logistics optimization (K-Means)
+├── Fiap On - Fase 6 - Geolocalização Dataset - Asset.csv   # Geolocation dataset
+├── imagens_faces/                                  # Image base (5 people)
+│   ├── pessoa_1/ ... pessoa_5/                      # 6 photos per person
+├── Relatorio_Melhores_Compras_Os_Mosqueteiros.pdf  # Technical project report
+└── README.md
+```
+
+---
+
+##  Part 1 - Facial Recognition
+
+Notebook: **`01_Reconhecimento_Facial.ipynb`**
+
+Uses OpenCV's **Haar Cascade** classifier for facial detection. For each person in the base, the
+first photos are used as **reference (training)** and the remaining ones as **validation (testing)**,
+simulating the customer authentication flow at the pickup center.
+
+**Techniques and libraries:**
+
+- `OpenCV (cv2)` — facial detection with Haar Cascade
+- `NumPy` — image array manipulation
+- `Matplotlib` — results visualization
+
+---
+
+##  Part 2 - Logistics Optimization (K-Means)
+
+Notebook: **`02_Clusterizacao_Logistica_KMeans.ipynb`**
+
+Applies the **K-Means** algorithm to a geolocation dataset of delivery failures to identify
+**5 clusters**. The resulting centroids indicate the ideal location for the new **pickup centers
+(hubs)**, reducing the average delivery distance.
+
+**Techniques and libraries:**
+
+- `pandas` - dataset loading and processing
+- `scikit-learn (KMeans)` - unsupervised clustering
+- `Matplotlib` - visualization of clusters and centroids
+
+---
+
+##  How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/<user>/facial-recognition-distribution-centers.git
+   cd facial-recognition-distribution-centers
+   ```
+
+2. Install the dependencies:
+   ```bash
+   pip install opencv-python numpy pandas scikit-learn matplotlib jupyter
+   ```
+
+3. Open the notebooks:
+   ```bash
+   jupyter notebook
+   ```
+
+4. Run the cells of **`01_Reconhecimento_Facial.ipynb`** and
+   **`02_Clusterizacao_Logistica_KMeans.ipynb`** in the presented order.
+
+---
+
+## 🛠️ Technologies Used
+
+| Category               | Tools                                |
+| ---------------------- | ------------------------------------ |
+| Language               | Python 3.x                           |
+| Computer Vision        | OpenCV (Haar Cascade)                |
+| Machine Learning       | scikit-learn (K-Means)               |
+| Data Manipulation      | pandas, NumPy                        |
+| Visualization          | Matplotlib                           |
+| Environment            | Jupyter Notebook                     |
+
+---
+
+##  Documentation
+
+The complete technical report of the project is available at
+**`Relatorio_Melhores_Compras_Os_Mosqueteiros.pdf`**.
+
+---
+
+##  Team - Os Mosqueteiros
+
+Project developed by the **Os Mosqueteiros** group for FIAP's Phase 6.
+
+---
+
+<p align="center">
+  Developed as part of the <strong>FIAP</strong> course • Phase 6 • Melhores Compras Challenge
+</p>
+
+---
+
+<a id="-versao-em-portugues"></a>
+
+# Reconhecimento Facial e Otimização Logística para Centros de Distribuição
 
 ##  Sobre o Projeto
 
@@ -45,7 +171,7 @@ facial-recognition-distribution-centers/
 
 ---
 
-## 🧠 Parte 1 - Reconhecimento Facial
+## Parte 1 - Reconhecimento Facial
 
 Notebook: **`01_Reconhecimento_Facial.ipynb`**
 
@@ -124,7 +250,13 @@ O relatório técnico completo do projeto está disponível em
 
 Projeto desenvolvido pelo grupo **Os Mosqueteiros** para a Fase 6 da FIAP.
 
----
+<p align="center">
+  <img src="https://img.shields.io/badge/FIAP-Phase%206-ED145B?style=for-the-badge" alt="FIAP Phase 6"/>
+  <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/OpenCV-Computer%20Vision-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV"/>
+  <img src="https://img.shields.io/badge/scikit--learn-K--Means-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn"/>
+</p>
+
 
 <p align="center">
   Desenvolvido como parte do curso da <strong>FIAP</strong> • Fase 6 • Challenge Melhores Compras
