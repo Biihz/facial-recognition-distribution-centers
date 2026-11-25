@@ -68,7 +68,7 @@ Applies the **K-Means** algorithm to a geolocation dataset of delivery failures 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<user>/facial-recognition-distribution-centers.git
+   git clone https://github.com/Biihz/facial-recognition-distribution-centers.git
    cd facial-recognition-distribution-centers
    ```
 
